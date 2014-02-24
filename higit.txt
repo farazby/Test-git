@@ -1,0 +1,15 @@
+
+DB restoration command
+ rm -rf mysql
+ 1045  ls
+ 1046  history
+ 1047   mv -b /var/lib/mysql/root/backups/mysql-2013-12-27/* /var/lib/mysql
+ 1048  ls /var/lib/mysql/
+ 1049  rm -rf /var/lib/mysql/root
+ 1050  ls /var/lib/mysql
+ 1051  cd
+ 1052  service mysqld start
+ 1053  service mysqld status
+ 1054  mysql
+ 1055  mysql
+ 1056  history
